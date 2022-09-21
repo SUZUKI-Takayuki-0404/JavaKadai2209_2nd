@@ -6,11 +6,11 @@ public class Main {
 
         //List of instances
         List<Animal> animals = new ArrayList<>();
-        animals.add(new Animal("Dog", "Shiro", "female", 3));
-        animals.add(new Animal("Cat", "Kuro", "male", 5));
-        animals.add(new Animal("Racoon", "Rascal", "female", 2));
-        animals.add(new Animal("Polar Bear", "Peace", "male", 10));
-        animals.add(new Animal("Lion", "Leo", "male", 1));
+        animals.add(new Animal("Dog", "Shiro", Gender.FEMALE, 3));
+        animals.add(new Animal("Cat", "Kuro", Gender.MALE, 5));
+        animals.add(new Animal("Racoon", "Rascal", Gender.FEMALE, 2));
+        animals.add(new Animal("Polar Bear", "Peace", Gender.MALE, 10));
+        animals.add(new Animal("Lion", "Leo", Gender.MALE, 1));
 
         //Show animals in the list (Add a note to give milk if age is 2 or less)
         System.out.println("<Animal List>");
