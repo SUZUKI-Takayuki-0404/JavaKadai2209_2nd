@@ -3,11 +3,11 @@ public class Animal {
     //fields
     private String animalType;
     private String personalName;
-    private String gender;
+    private Gender gender;
     private int age;
 
     //constructor
-    public Animal(String animalType, String personalName, String gender, int age) {
+    public Animal(String animalType, String personalName, Gender gender, int age) {
         this.animalType = animalType;
         this.personalName = personalName;
         this.gender = gender;
@@ -24,7 +24,7 @@ public class Animal {
     }
 
     public String getGender() {
-        return gender;
+        return gender.toString();
     }
 
     public int getAge() {
